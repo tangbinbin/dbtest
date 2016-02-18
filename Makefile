@@ -7,4 +7,5 @@ dep:
 	go get github.com/go-sql-driver/mysql
 
 install:dep
-	go install dbmonitor
+	go install general_log_parse
+	go install dbtest
